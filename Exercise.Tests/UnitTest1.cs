@@ -13,18 +13,13 @@ namespace Exercise.Tests
         [Fact]
         public void Test1()
         {
-            Assert.True(prog.CalSum(2,3) == 4);
+            Assert.True(prog.SayHello().Equals("Hello World!"), "Your program is not welcoming!");
         }
 
         [Fact]
         public void Test2()
         {
-            Assert.True(prog.CalSum(2, 3) == 5);
-        }
-        [Fact]
-        public void Test3()
-        {
-            Assert.True(prog.CalSum(3, 3) == 4);
+            Assert.True(prog.SayGoodBye().Equals("GoodBye World!"),"Your program does not say GoodBye correctly!");
         }
     }
 }

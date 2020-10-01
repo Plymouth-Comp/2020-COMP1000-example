@@ -4,14 +4,22 @@ namespace Exercise
 {
     public class Program
     {
-        public int CalSum(int a, int b)
+        public string SayHello()
         {
-            return a + b;
+            return "Hello World!";
         }
+        public string SayGoodBye()
+        {
+            return ("Hello World!");
+        }
+
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Program prog = new Program();
+
+            Console.WriteLine(prog.SayHello());
+            Console.WriteLine(prog.SayGoodBye());
         }
     }
 }
