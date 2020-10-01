@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "cake.tool": {
+      "version": "0.38.4",
+      "commands": [
+        "dotnet-cake"
+      ]
+    },
+    "xunit-cli": {
+      "version": "0.1.12",
+      "commands": [
+        "xunit"
+      ]
+    }
+  }
+}
