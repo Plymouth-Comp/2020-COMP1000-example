@@ -1,9 +1,9 @@
 # 2020-COMP1000 Example Project
 
 
-In this session you will learn how a dotnet program and project is structured.
+In this session you will learn how a dotnet (c-sharp) program and project is structured.
 
-You will able to to build the project using:
+You will able to to build the project for release and submission using:
 
 `dotnet cake --target=Build --verbosity=Quiet`
 
